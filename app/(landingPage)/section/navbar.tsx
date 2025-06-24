@@ -76,7 +76,7 @@ export default function Navbar() {
           <Toolbar disableGutters sx={{ minHeight: '60px !important' }}> 
             <Box sx={{ flexGrow: { xs: 1, md: 0 } }}>
               <Image
-                src="/logo.svg"
+                src="/logo/logo.svg"
                 width={scrolled ? 140 : 160} 
                 height={scrolled ? 35 : 40} 
                 alt="logo"
