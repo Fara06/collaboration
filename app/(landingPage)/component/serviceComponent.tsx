@@ -74,7 +74,7 @@ export default function ServiceComponent() {
                 <Grid container spacing={4} justifyContent="center">
                     {plans.map((plan, index) => (
                         <Grid size={6} key={index}>
-                            <Card
+                               <Card
                                 sx={{
                                     height: "100%",
                                     display: "flex",
